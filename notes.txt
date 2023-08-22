@@ -1,5 +1,5 @@
 node version: v16.20.1
-ialwind version: 3.3.3
+Tailwind version: 3.3.3
 
 
 npm install
