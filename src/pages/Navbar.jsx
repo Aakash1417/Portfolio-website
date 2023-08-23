@@ -1,22 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { styles } from "../styles";
+// import { styles } from "../styles";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
-//   const [toggle, setToggle] = useState(false);
+  //   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   return (
-    <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary opacity-95" : "bg-transparent"
-      }`}
-    >
+    <nav>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
@@ -26,20 +20,18 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+          <p className="text-black text-[18px] font-bold">
             Aakash &nbsp;
             <span className="sm:block hidden"> | Software Engineer</span>
           </p>
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none">
           {navLinks.map((nav) => (
             <li
-              key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              } hover:text-black text-[18px] font-medium cursor-pointer`}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
