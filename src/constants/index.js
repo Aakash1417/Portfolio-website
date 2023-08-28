@@ -1,4 +1,4 @@
-import { github, linkedin } from "../assets";
+import { github, linkedin, logo } from "../assets";
 
 export const navLinks = [
   {
@@ -28,4 +28,20 @@ const heroLinks = [
   },
 ];
 
-export { heroLinks };
+const education = [
+  {
+    title: "Software Engineering Co-op",
+    company_name: "UofA",
+    icon: logo,
+    iconBg: "green",
+    date: "2021 - Current",
+    points: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
+    ],
+  },
+];
+
+export { heroLinks, education };

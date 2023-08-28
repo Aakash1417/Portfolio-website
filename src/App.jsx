@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { About, Hero, Navbar } from "./pages";
+import { About, Education, Hero, Navbar } from "./pages";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
         </div>
 
         <About />
+        <Education />
       </div>
     </BrowserRouter>
   );
