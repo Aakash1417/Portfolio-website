@@ -19,6 +19,12 @@ module.exports = {
       screens: {
         xs: "450px",
       },
+      backgroundColor: {
+        "front-page": "#696969",
+      },
+      //   backgroundImage: {
+      //     "hero-pattern": "url('/src/assets/logo.png')",
+      //   },
     },
   },
   plugins: [],
