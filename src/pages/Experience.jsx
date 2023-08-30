@@ -8,9 +8,9 @@ import { styles } from "../styles";
 import "react-vertical-timeline-component/style.min.css";
 import { SectionWrapper } from "../sections";
 import { textVariant } from "../utils/motion";
-import { education } from "../constants";
+import { EXP } from "../constants";
 
-const EducationCard = ({ experience }) => {
+const ItemCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -55,18 +55,18 @@ const EducationCard = ({ experience }) => {
   );
 };
 
-const Education = () => {
+const allexp = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I've learned</p>
-        <h2 className={styles.sectionHeadText}>Education</h2>
+        <h2 className={styles.sectionHeadText}>Experience</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
-          {education.map((experience, index) => (
-            <EducationCard key={index} experience={experience} />
+          {EXP.map((experience, index) => (
+            <ItemCard key={index} experience={experience} />
           ))}
         </VerticalTimeline>
       </div>
@@ -74,4 +74,4 @@ const Education = () => {
   );
 };
 
-export default SectionWrapper(Education, "work");
+export default SectionWrapper(allexp, "work");

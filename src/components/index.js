@@ -1,5 +1,4 @@
-import BackToTop from './BackToTop';
+import BackToTop from "./BackToTop";
+import IconCard from "./IconCard";
 
-export {
-    BackToTop,
-}
+export { IconCard, BackToTop };
