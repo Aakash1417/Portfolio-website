@@ -21,7 +21,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "projects",
+    id: "Projects",
     title: "Projects",
   },
   {
@@ -34,7 +34,7 @@ const technologies = [
   {
     name: "Cpp",
     icon: cpp,
-    fill: 70,
+    fill: 60,
   },
   {
     name: "CSS",
@@ -49,17 +49,17 @@ const technologies = [
   {
     name: "HTML",
     icon: html,
-    fill: 70,
+    fill: 60,
   },
   {
     name: "JavaScript",
     icon: javascript,
-    fill: 60,
+    fill: 80,
   },
   {
     name: "Matlab",
     icon: matlab,
-    fill: 60,
+    fill: 40,
   },
   {
     name: "NodeJS",
@@ -69,7 +69,7 @@ const technologies = [
   {
     name: "Python",
     icon: python,
-    fill: 60,
+    fill: 70,
   },
   {
     name: "React",
@@ -85,8 +85,59 @@ const technologies = [
     name: "Tailwind",
     icon: tailwind,
     fill: 30,
-  }
+  },
 ];
+
+const projects = [
+  {
+    name: "A-maze",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellendus aperiam, ab maxime harum illo similique quas iusto consectetur inventore.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "green-text",
+      },
+    ],
+    image: css,
+    source_code_link: "",
+  },
+  {
+    name: "Asteroid game",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellendus aperiam, ab maxime harum illo similique quas iusto consectetur inventore.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text",
+      },
+      {
+        name: "css",
+        color: "blue-text",
+      },
+      {
+        name: "javascript",
+        color: "green-text",
+      },
+    ],
+    image: css,
+    source_code_link: "",
+  },
+  {
+    name: "To Do list",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellendus aperiam, ab maxime harum illo similique quas iusto consectetur inventore.",
+    tags: [
+      {
+        name: "python",
+        color: "pink-text",
+      },
+    ],
+    image: css,
+    source_code_link: "",
+  },
+];
+
 const heroLinks = [
   {
     src: github,
@@ -142,4 +193,4 @@ const EXP = [
   },
 ];
 
-export { heroLinks, EXP, technologies };
+export { heroLinks, EXP, technologies, projects };

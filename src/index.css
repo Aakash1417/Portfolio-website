@@ -29,6 +29,30 @@
   background: -webkit-linear-gradient(-90.13deg, #ffe998 1.9%, #57370d 97.5%);
 }
 
+.pink-text {
+  background: #ec008c;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.blue-text {
+  background: #0022ee;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.orange-text {
+  background: #ff6700;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.green-text {
+  background: #58cd36;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
