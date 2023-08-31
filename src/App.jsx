@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { About, Experience, Skills, Projects, Hero, Navbar } from "./pages";
+import { About, Experience, Skills, Projects, Contact, Hero, Navbar } from "./pages";
+import { BackToTop } from "./components";
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
         <Experience />
         <Skills />
         <Projects />
+        <Contact />
+        <BackToTop />
       </div>
     </BrowserRouter>
   );

@@ -1,19 +1,6 @@
-import {
-  javascript,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  git,
-  cpp,
-  matlab,
-  python,
-  sql,
-  nodejs,
-  github,
-  linkedin,
-  logo,
-} from "../assets";
+import { javascript, html, css, reactjs, tailwind, git, cpp } from "../assets";
+
+import { python, sql, nodejs, github, linkedin, logo, matlab } from "../assets";
 
 export const navLinks = [
   {
@@ -108,15 +95,15 @@ const projects = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellendus aperiam, ab maxime harum illo similique quas iusto consectetur inventore.",
     tags: [
       {
-        name: "html",
+        name: "HTML",
         color: "orange-text",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "blue-text",
       },
       {
-        name: "javascript",
+        name: "JavaScript",
         color: "green-text",
       },
     ],
@@ -129,7 +116,7 @@ const projects = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellendus aperiam, ab maxime harum illo similique quas iusto consectetur inventore.",
     tags: [
       {
-        name: "python",
+        name: "Python",
         color: "pink-text",
       },
     ],
