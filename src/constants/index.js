@@ -9,9 +9,10 @@ import {
   matlab,
   python,
   sql,
+  nodejs,
   github,
   linkedin,
-  logo
+  logo,
 } from "../assets";
 
 export const navLinks = [
@@ -36,8 +37,33 @@ const technologies = [
     fill: 70,
   },
   {
+    name: "CSS",
+    icon: css,
+    fill: 60,
+  },
+  {
+    name: "Git",
+    icon: git,
+    fill: 50,
+  },
+  {
+    name: "HTML",
+    icon: html,
+    fill: 70,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+    fill: 60,
+  },
+  {
     name: "Matlab",
     icon: matlab,
+    fill: 60,
+  },
+  {
+    name: "NodeJS",
+    icon: nodejs,
     fill: 60,
   },
   {
@@ -46,28 +72,8 @@ const technologies = [
     fill: 60,
   },
   {
-    name: "HTML",
-    icon: html,
-    fill: 70,
-  },
-  {
-    name: "CSS",
-    icon: css,
-    fill: 60,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-    fill: 60,
-  },
-  {
     name: "React",
     icon: reactjs,
-    fill: 30,
-  },
-  {
-    name: "Tailwind",
-    icon: tailwind,
     fill: 30,
   },
   {
@@ -76,10 +82,10 @@ const technologies = [
     fill: 60,
   },
   {
-    name: "Git",
-    icon: git,
-    fill: 50,
-  },
+    name: "Tailwind",
+    icon: tailwind,
+    fill: 30,
+  }
 ];
 const heroLinks = [
   {
