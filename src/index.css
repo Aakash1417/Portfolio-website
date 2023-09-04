@@ -19,10 +19,6 @@
   display: block;
 }
 
-.neon-border {
-  border-color: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-}
-
 .gold-gradient {
   background: #ffe998;
   background: linear-gradient(90.13deg, #ffe998 1.9%, #57370d 97.5%);

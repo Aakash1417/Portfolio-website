@@ -18,17 +18,13 @@ const About = () => {
           variants={fadeIn("", "", 1, 1)}
           className="mt-4 text-white-100 text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur et
-          unde pariatur quam id exercitationem eveniet possimus? Minima tempora
-          odio, maiores dolores modi aliquid cumque labore. Obcaecati adipisci,
-          deleniti voluptas quibusdam nihil molestiae quis corporis expedita
-          iste accusamus minus error ut enim porro laudantium sapiente amet ab!
-          Veniam odit ab in, sit, esse ratione quibusdam, repellendus at
-          explicabo suscipit cumque debitis accusamus iure ad voluptate eveniet
-          molestiae vel inventore ex velit enim. Consequuntur aliquam totam
-          incidunt id, vero ut modi quod possimus! Magnam saepe, facere
-          veritatis doloribus accusamus sed iste ab culpa dignissimos aliquid,
-          aut maxime dolorum vitae, praesentium beatae!
+          Highly motivated and detail-oriented Software Engineering student with
+          a passion for programming and dedicated to personal and professional
+          growth. Proficient in Python, C++ and JavaScript with knowledge of web
+          development languages and database knowledge. Demonstrated skills
+          through various projects, showcasing problem-solving abilities. Strong
+          team player, eager to learn and contribute to an organization. Seeking
+          real work experience to further enhance my skills.
         </motion.p>
       </motion.div>
     </div>

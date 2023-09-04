@@ -1,5 +1,4 @@
 import { javascript, html, css, reactjs, tailwind, git, cpp } from "../assets";
-
 import { python, sql, nodejs, github, linkedin, logo, matlab } from "../assets";
 
 export const navLinks = [
@@ -79,7 +78,7 @@ const projects = [
   {
     name: "A-maze",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellendus aperiam, ab maxime harum illo similique quas iusto consectetur inventore.",
+      "The maze generator project employs algorithms to generate a unique, unpredictable maze with intricate paths and dead ends each time.",
     tags: [
       {
         name: "JavaScript",
@@ -87,7 +86,7 @@ const projects = [
       },
     ],
     image: css,
-    source_code_link: "",
+    source_code_link: "https://github.com/phant0mthief1417/A-maze",
   },
   {
     name: "Asteroid game",
@@ -108,7 +107,7 @@ const projects = [
       },
     ],
     image: css,
-    source_code_link: "",
+    source_code_link: "https://github.com/phant0mthief1417/AsteroidGame",
   },
   {
     name: "To Do list",
@@ -146,23 +145,23 @@ const EXP = [
     iconBg: "green",
     date: "Sep 2021 - Current",
     points: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
+      "Acquired a solid foundation in programming, algorithms, databases, and fostering strong theoretical foundations for real-world challenges.",
+      "Worked on collaborative projects, web apps, real industry problem-solving, teamwork, project management.",
+      "Gained expertise in working with relational database systems such as mySQL and msSQL, allowing for effective data management and retrieval.",
+      "Recognized for exceptional academic performance, achieving Dean's List with a GPA of 3.9/4.0.",
     ],
   },
   {
-    title: "Software Engineering Co-op",
+    title: "Junior Software Intern",
     company_name: "Trinamix Inc.",
     icon: logo,
     iconBg: "yellow",
     date: "May 2023 - Aug 2023",
     points: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
+      "Acquired comprehensive understanding of Oracle cloud principles encompassing SaaS, PaaS, and IaaS, along with proficiency in Oracle Integration Cloud.",
+      "Developed a strong foundation in Fusion fundamentals and gained expertise in managing web services, both REST and SOAP.",
+      "Engaged in hands-on tasks, including web service utilization, report generation from SQL databases, and efficient handling of Fusion web services.",
+      "Contributed to various projects by actively participating in technical documentation efforts, showcasing dedication to enhancing the team's operational effectiveness.",
     ],
   },
   {
@@ -172,10 +171,10 @@ const EXP = [
     iconBg: "#ff7f7f",
     date: "Sep 2023 - Current",
     points: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum assumenda amet nobis impedit eaque minima veniam quos tenetur? Natus nobis rem sunt maiores id?",
+      "Collaborating with cross-functional teams to identify business challenges and opportunities. Developed and implemented software applications addressing specific operational needs, contributing to enhanced business processes.",
+      "Engaged in the complete software development lifecycle, from requirements gathering to deployment and maintenance. Worked on projects spanning process automation, data analysis, and efficiency enhancement, ensuring seamless functionality.",
+      "Demonstrated troubleshooting and debugging proficiency for existing software systems, promptly identifying and resolving issues. Continuously stayed abreast of industry best practices and emerging technologies.",
+      "Gained comprehensive knowledge in the renewable energy space, including wind, solar, energy storage, and green energy projects, contributing to a holistic understanding of renewable energy strategies and design standards.",
     ],
   },
 ];
