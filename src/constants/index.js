@@ -112,15 +112,19 @@ const projects = [
   {
     name: "To Do list",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellendus aperiam, ab maxime harum illo similique quas iusto consectetur inventore.",
+      "A user-friendly to-do app built with Django and SQLite for efficient task management, offering a seamless experience for organizing and prioritizing tasks.",
     tags: [
       {
         name: "Python",
         color: "pink-text",
       },
+      {
+        name: "Django",
+        color: "green-text",
+      },
     ],
     image: css,
-    source_code_link: "",
+    source_code_link: "https://github.com/phant0mthief1417/ToDoList",
   },
 ];
 
