@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#121212 ", // background
+        primary: "#121212", // background
         secondary: "#FFE998", // headers
         tertiary: "#212121", // boxes
         "black-100": "#212121",
@@ -19,12 +19,6 @@ module.exports = {
       screens: {
         xs: "450px",
       },
-      backgroundColor: {
-        "front-page": "#696969",
-      },
-      //   backgroundImage: {
-      //     "hero-pattern": "url('/src/assets/logo.png')",
-      //   },
     },
   },
   plugins: [],

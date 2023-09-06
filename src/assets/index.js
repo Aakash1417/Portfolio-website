@@ -15,20 +15,32 @@ import sql from "./tech/sql.svg";
 import github from "./tech/github.png";
 import linkedin from "./tech/linkedin.png";
 
+import ToDoimg from "./projects/ToDoimg.png";
+import Asteroidimg from "./projects/Asteroidimg.png";
+
+import Ualberta from "./companies/Ualberta.png";
+import TaifaEng from "./companies/TaifaEng.png";
+import Trinamix from "./companies/Trinamix.png";
+
 export {
-    logo,
-    github,
-    linkedin,
-    css,
-    git,
-    html,
-    javascript,
-    nodejs,
-    reactjs,
-    tailwind,
-    typescript,
-    cpp,
-    matlab,
-    python,
-    sql,
+  logo,
+  github,
+  linkedin,
+  css,
+  git,
+  html,
+  javascript,
+  nodejs,
+  reactjs,
+  tailwind,
+  typescript,
+  cpp,
+  matlab,
+  python,
+  sql,
+  ToDoimg,
+  Asteroidimg,
+  Ualberta,
+  TaifaEng,
+  Trinamix,
 };

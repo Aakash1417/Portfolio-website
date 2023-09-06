@@ -49,6 +49,10 @@
   font-weight: bold;
 }
 
+.bg-front-page {
+  background: linear-gradient(#696969 70%, #121212);
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

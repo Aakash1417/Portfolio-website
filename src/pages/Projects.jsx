@@ -79,12 +79,10 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-white-100 text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illum
-          laborum officia aspernatur nostrum recusandae, harum blanditiis quod
-          ipsa pariatur aliquam quam non doloribus perspiciatis odio! Omnis
-          optio ut molestias commodi excepturi, consectetur corrupti obcaecati,
-          vitae aliquid magnam est laboriosam recusandae perferendis eum
-          consequatur labore alias ad illum! Eaque, molestias!
+          I have worked on a variety of projects to showcase a variety of skills
+          and highlight a diverse range of technologies. Each project also has a
+          link to the source code on Github and the link to them are on the
+          github repository, feel free to check it out!
         </motion.p>
       </div>
 

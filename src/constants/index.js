@@ -1,6 +1,6 @@
 import { javascript, html, css, reactjs, tailwind, git, cpp } from "../assets";
 import { python, sql, nodejs, github, linkedin, logo, matlab } from "../assets";
-
+import { ToDoimg, Asteroidimg, Ualberta, TaifaEng, Trinamix } from "../assets";
 export const navLinks = [
   {
     id: "about",
@@ -76,9 +76,9 @@ const technologies = [
 
 const projects = [
   {
-    name: "A-maze",
+    name: "Anything Chatbot",
     description:
-      "The maze generator project employs algorithms to generate a unique, unpredictable maze with intricate paths and dead ends each time.",
+      "Meet a versatile chatbot that transforms into whatever you need! Seek advice, learn, chat, or be entertained — this adaptable AI companion has you covered.",
     tags: [
       {
         name: "JavaScript",
@@ -86,28 +86,7 @@ const projects = [
       },
     ],
     image: css,
-    source_code_link: "https://github.com/phant0mthief1417/A-maze",
-  },
-  {
-    name: "Asteroid game",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellendus aperiam, ab maxime harum illo similique quas iusto consectetur inventore.",
-    tags: [
-      {
-        name: "HTML",
-        color: "orange-text",
-      },
-      {
-        name: "CSS",
-        color: "blue-text",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text",
-      },
-    ],
-    image: css,
-    source_code_link: "https://github.com/phant0mthief1417/AsteroidGame",
+    source_code_link: "https://github.com/Aakash1417/Anything_chatbot",
   },
   {
     name: "To Do list",
@@ -123,8 +102,29 @@ const projects = [
         color: "green-text",
       },
     ],
-    image: css,
-    source_code_link: "https://github.com/phant0mthief1417/ToDoList",
+    image: ToDoimg,
+    source_code_link: "https://github.com/Aakash1417/ToDoList",
+  },
+  {
+    name: "Asteroid game",
+    description:
+      "Embark on an asteroid adventure with unpredictable, randomly moving space rocks! Test your reflexes, navigate the chaos, and conquer the cosmos in this thrilling gaming project.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text",
+      },
+      {
+        name: "CSS",
+        color: "blue-text",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text",
+      },
+    ],
+    image: Asteroidimg,
+    source_code_link: "https://github.com/Aakash1417/AsteroidGame",
   },
 ];
 
@@ -132,7 +132,7 @@ const heroLinks = [
   {
     src: github,
     alt: "github",
-    link: "https://github.com/phant0mthief1417",
+    link: "https://github.com/Aakash1417",
   },
   {
     src: linkedin,
@@ -145,7 +145,7 @@ const EXP = [
   {
     title: "Software Engineering Co-op",
     company_name: "UofA",
-    icon: logo,
+    icon: Ualberta,
     iconBg: "green",
     date: "Sep 2021 - Current",
     points: [
@@ -158,7 +158,7 @@ const EXP = [
   {
     title: "Junior Software Intern",
     company_name: "Trinamix Inc.",
-    icon: logo,
+    icon: Trinamix,
     iconBg: "yellow",
     date: "May 2023 - Aug 2023",
     points: [
@@ -171,7 +171,7 @@ const EXP = [
   {
     title: "Software Engineer Intern",
     company_name: "Taifa Engineering LTD.",
-    icon: logo,
+    icon: TaifaEng,
     iconBg: "#ff7f7f",
     date: "Sep 2023 - Current",
     points: [
