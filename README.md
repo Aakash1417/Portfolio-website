@@ -1,8 +1,19 @@
-# React + Vite
+# Portfolio-website
+# <https://aakash-portfolio-one.vercel.app/>
+![site_screenshot](public/readme/sitehome.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This website serves as a showcase of my work, skills, and projects. The site was built entirely using the React.js framework You can visit the live website using the link at the top.
 
-Currently, two official plugins are available:
+### Features
+* Built using React.js, Vite and Node.js
+* Animation and effect are done using Framer Motion and Three.js
+* CSS done with TailwindCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## License
+This project is NOT licensed. [Learn more](LICENSE).
+
+## Acknowledgments
+This project was made possible with significant guidance from the excellent YouTube tutorial by 'JavaScript Mastery'. The video provides valuable insights and guidance that contributed significantly to the development of this project. <https://www.youtube.com/watch?v=0fYi8SGA20k>
+
+Thank you for checking out my site!
