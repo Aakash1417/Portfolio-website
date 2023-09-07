@@ -15,19 +15,26 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.sendForm("", "", formRef.current, "").then(
-      (result) => {
-        setLoading(false);
-        alert("Email sent successfully!");
-        e.target.reset();
-        console.log(result.text);
-      },
-      (error) => {
-        setLoading(false);
-        alert("There was an error, please refresh and try again!");
-        console.error(error.text);
-      }
-    );
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_MY_SERVICE_ID,
+        import.meta.env.VITE_MY_TEMPLATE_ID,
+        formRef.current,
+        import.meta.env.VITE_MY_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          setLoading(false);
+          alert("Email sent successfully!");
+          e.target.reset();
+          console.log(result.text);
+        },
+        (error) => {
+          setLoading(false);
+          alert("There was an error, please refresh and try again!");
+          console.error(error.text);
+        }
+      );
   };
 
   return (
