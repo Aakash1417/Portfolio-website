@@ -6,7 +6,6 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import cpp from "./tech/cpp.png";
 import matlab from "./tech/matlab.png";
@@ -17,6 +16,7 @@ import linkedin from "./tech/linkedin.png";
 
 import ToDoimg from "./projects/ToDoimg.png";
 import Asteroidimg from "./projects/Asteroidimg.png";
+import chatbotimg from "./projects/chatbotimg.png";
 
 import Ualberta from "./companies/Ualberta.png";
 import TaifaEng from "./companies/TaifaEng.png";
@@ -32,7 +32,6 @@ export {
   javascript,
   nodejs,
   reactjs,
-  tailwind,
   typescript,
   cpp,
   matlab,
@@ -40,6 +39,7 @@ export {
   sql,
   ToDoimg,
   Asteroidimg,
+  chatbotimg,
   Ualberta,
   TaifaEng,
   Trinamix,

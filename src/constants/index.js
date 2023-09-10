@@ -1,5 +1,13 @@
-import { javascript, html, css, reactjs, tailwind, git, cpp } from "../assets";
-import { python, sql, nodejs, github, linkedin, logo, matlab } from "../assets";
+import { javascript, html, css, reactjs, git, cpp } from "../assets";
+import {
+  python,
+  sql,
+  nodejs,
+  github,
+  linkedin,
+  chatbotimg,
+  matlab,
+} from "../assets";
 import { ToDoimg, Asteroidimg, Ualberta, TaifaEng, Trinamix } from "../assets";
 export const navLinks = [
   {
@@ -67,26 +75,29 @@ const technologies = [
     icon: sql,
     fill: 60,
   },
-  {
-    name: "Tailwind",
-    icon: tailwind,
-    fill: 30,
-  },
 ];
 
 const projects = [
   {
-    name: "Anything Chatbot",
+    name: "Engg-bot",
     description:
-      "Meet a versatile chatbot that transforms into whatever you need! Seek advice, learn, chat, or be entertained — this adaptable AI companion has you covered.",
+      "Engg-bot is your virtual engineering companion. It's your go-to for instant answers, guidance, and support in all things engineering, from complex problems to career advice.",
     tags: [
+      {
+        name: "React",
+        color: "orange-text",
+      },
+      {
+        name: "OpenAI",
+        color: "blue-text",
+      },
       {
         name: "JavaScript",
         color: "green-text",
       },
     ],
-    image: css,
-    source_code_link: "https://github.com/Aakash1417/Anything_chatbot",
+    image: chatbotimg,
+    source_code_link: "https://github.com/Aakash1417/Engg-bot",
   },
   {
     name: "To Do list",
@@ -178,7 +189,6 @@ const EXP = [
       "Collaborating with cross-functional teams to identify business challenges and opportunities. Developed and implemented software applications addressing specific operational needs, contributing to enhanced business processes.",
       "Engaged in the complete software development lifecycle, from requirements gathering to deployment and maintenance. Worked on projects spanning process automation, data analysis, and efficiency enhancement, ensuring seamless functionality.",
       "Demonstrated troubleshooting and debugging proficiency for existing software systems, promptly identifying and resolving issues. Continuously stayed abreast of industry best practices and emerging technologies.",
-      "Gained comprehensive knowledge in the renewable energy space, including wind, solar, energy storage, and green energy projects, contributing to a holistic understanding of renewable energy strategies and design standards.",
     ],
   },
 ];
